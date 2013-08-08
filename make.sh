@@ -10,7 +10,7 @@
 # dotfiles directory
 dir=~/dotfiles       
 # list of files/folders to symlink in homedir
-symlink_files="aliasses functions profile"    
+symlink_files="aliases functions git-prompt profile"    
 
 ##########
 
