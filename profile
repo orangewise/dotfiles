@@ -1,9 +1,13 @@
+echo ".profile" $SHELL
+
 source ~/.aliases
 source ~/.functions
 source ~/.git-prompt
 
+GIT_PS1_SHOWCOLORHINTS=true
+GIT_PS1_SHOWSTASHSTATE=true
+GIT_PS1_SHOWUNTRACKEDFILES=true
+GIT_PS1_SHOWUPSTREAM="auto"
 
-export PS1="\u@\h:\w $GREEN `__git_ps1` $BLACK
-\$ "
-
-
+PROMPT_COMMAND='__git_ps1 "\u@\h:\w" "
+\\\$ "'
