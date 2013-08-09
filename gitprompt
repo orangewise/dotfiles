@@ -1,7 +1,3 @@
-echo ".profile" $SHELL
-
-source ~/.aliases
-source ~/.functions
 source ~/.git-prompt
 
 GIT_PS1_SHOWCOLORHINTS=true

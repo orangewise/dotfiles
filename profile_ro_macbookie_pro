@@ -1,0 +1,6 @@
+echo ".profile" $SHELL
+
+source ~/.aliases
+source ~/.functions
+source ~/.gitprompt
+
