@@ -20,7 +20,7 @@ function symlink {
 # dotfiles directory
 dir=~/dotfiles       
 # list of files/folders to symlink in homedir
-symlink_files="aliases functions git-prompt gitprompt"  
+symlink_files="aliases functions git-prompt gitprompt oracle ow macports heroku_toolbelt homebrew ruby"  
 
 ########## Start
 
@@ -41,7 +41,7 @@ then
 	echo "--> profile for Ro-Mac-BookiePro"
 	symlink "profile" "profile_ro_macbookie_pro"
 	
-elif [ hostname == "Ro-MacBook-Pro.local" ]
+elif [ `hostname` == "Ro-MacBook-Pro.local" ]
 then
 	echo "--> profile for Ro-MacBook-Pro"
 	symlink "profile" "profile_ro_macbook_pro"

@@ -1,1 +1,4 @@
 alias orangewise='ssh orangewi@orangewise.com'
+
+# will reset QuickLook's caches
+alias reset_quicklook='qlmanage -r'
