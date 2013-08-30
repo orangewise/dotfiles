@@ -1,7 +1,11 @@
 echo ".profile" $SHELL
 
+source ~/.heroku_toolbelt
 source ~/.rbenv
 source ~/.aliases
 source ~/.functions
 source ~/.gitprompt
 
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
