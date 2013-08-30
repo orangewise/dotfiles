@@ -1,5 +1,6 @@
 echo ".profile" $SHELL
 
+source ~/.rbenv
 source ~/.aliases
 source ~/.functions
 source ~/.gitprompt
