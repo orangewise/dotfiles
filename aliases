@@ -2,3 +2,6 @@ alias orangewise='ssh orangewi@orangewise.com'
 
 # will reset QuickLook's caches
 alias reset_quicklook='qlmanage -r'
+
+# Reindexing Spotlight
+alias reset_spotlight='sudo mdutil -E /'
