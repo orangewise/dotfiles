@@ -3,3 +3,9 @@ function tabname {
   printf "\e]1;$1\a"
 }
 
+# find text in files
+# example: f ORANGEWISE
+function f {
+	grep -ir "$1" *
+}
+
