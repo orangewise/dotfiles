@@ -1,4 +1,5 @@
 alias orangewise='ssh orangewi@orangewise.com'
+alias macbookpro='ssh ronald@'ro-macbook-pro.local'
 
 # will reset QuickLook's caches
 alias reset_quicklook='qlmanage -r'
