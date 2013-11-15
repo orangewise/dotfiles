@@ -7,4 +7,5 @@ source ~/.rbenv
 source ~/.aliases
 source ~/.functions
 source ~/.gitprompt
+source ~/.bower
 
