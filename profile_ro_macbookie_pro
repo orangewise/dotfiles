@@ -8,4 +8,4 @@ source ~/.aliases
 source ~/.functions
 source ~/.gitprompt
 source ~/.bower
-
+source ~/.apportable_toolkit
