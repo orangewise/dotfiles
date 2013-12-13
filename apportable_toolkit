@@ -1,1 +1,1 @@
-export PATH=".apportable/SDK/bin/:$PATH"
+export PATH="~/.apportable/SDK/bin/:$PATH"
