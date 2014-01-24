@@ -5,7 +5,11 @@ source ~/.homebrew
 source ~/.heroku_toolbelt
 source ~/.rbenv
 source ~/.aliases
+source ~/.ow
+source ~/.ck
+source ~/.xc
 source ~/.functions
 source ~/.gitprompt
 source ~/.bower
 source ~/.apportable_toolkit
+

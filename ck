@@ -1,0 +1,1 @@
+export OW=~/data/zaak/Oracle

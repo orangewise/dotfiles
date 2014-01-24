@@ -2,10 +2,10 @@ echo ".profile" $SHELL
 
 source ~/.textmate
 source ~/.aliases
+source ~/.ow
 source ~/.functions
 source ~/.gitprompt
 source ~/.oracle
-source ~/.ow
 source ~/.macports
 source ~/.heroku_toolbelt
 source ~/.homebrew
