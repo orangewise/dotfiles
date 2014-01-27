@@ -1,1 +1,1 @@
-export OW=~/data/zaak/Oracle
+export CK=~/ContentKit/ContentKit
