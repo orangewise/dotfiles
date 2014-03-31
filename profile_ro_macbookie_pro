@@ -8,6 +8,7 @@ source ~/.aliases
 source ~/.ow
 source ~/.ck
 source ~/.xc
+source ~/.droid
 source ~/.www
 source ~/.functions
 source ~/.gitprompt
