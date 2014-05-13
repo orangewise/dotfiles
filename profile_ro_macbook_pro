@@ -3,6 +3,7 @@ echo ".profile" $SHELL
 source ~/.textmate
 source ~/.aliases
 source ~/.ow
+source ~/.ck
 source ~/.functions
 source ~/.gitprompt
 source ~/.oracle
