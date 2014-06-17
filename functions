@@ -9,3 +9,10 @@ function f {
 	grep -ir "$1" *
 }
 
+
+# usage: "$(get_pw google_drive)"
+get_pw () {
+  # get password from keychain
+  security 2>&1 >/dev/null find-generic-password -ga $1 \
+  |ruby -e 'print $1 if STDIN.gets =~ /^password: "(.*)"$/'
+}
