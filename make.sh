@@ -20,7 +20,7 @@ function symlink {
 # dotfiles directory
 dir=~/dotfiles       
 # list of files/folders to symlink in homedir
-symlink_files="aliases bower functions git-prompt gitprompt oracle oracle_11_2 ow ck ow xc droid www textmate macports heroku_toolbelt homebrew ruby rbenv apportable_toolkit"  
+symlink_files="aliases bower functions git-prompt gitprompt oracle oracle_11_2 ow ck ow xc droid www textmate macports heroku_toolbelt homebrew ruby rbenv apportable_toolkit jshintrc"  
 
 ########## Start
 
@@ -35,13 +35,14 @@ for file in $symlink_files; do
 	
 done
 
-echo "Create the correct profile"  
-if [ `hostname` == "Ro-MacBookie-Pro.local" ]
+host=`hostname`
+echo "Create the correct profile for ${host:0:16} or ${host:0:14}"  
+if [ ${host:0:16} == "Ro-MacBookie-Pro" ]
 then
 	echo "--> profile for Ro-Mac-BookiePro"
 	symlink "profile" "profile_ro_macbookie_pro"
 	
-elif [ `hostname` == "Ro-MacBook-Pro.local" ]
+elif [ ${host:0:14} == "Ro-MacBook-Pro.local" ]
 then
 	echo "--> profile for Ro-MacBook-Pro"
 	symlink "profile" "profile_ro_macbook_pro"
