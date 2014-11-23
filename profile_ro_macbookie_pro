@@ -15,4 +15,4 @@ source ~/.gitprompt
 source ~/.bower
 source ~/.apportable_toolkit
 source ~/.oracle_11_2
-source ~/.docker
+source ~/.dockerenv

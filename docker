@@ -1,2 +1,0 @@
-export PATH="~/Docker/docker-meteor-mongodb:$PATH"
-$(boot2docker shellinit)
