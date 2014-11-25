@@ -1,8 +1,8 @@
-alias orangewise='ssh -v orangewi@orangewise.com'
-alias macbookpro='ssh ronald@'ro-macbook-pro.local'
+alias orangewise="ssh -v orangewi@orangewise.com"
+alias macbookpro="ssh ronald@'ro-macbook-pro.local"
 
-# will reset QuickLook's caches
-alias reset_quicklook='qlmanage -r'
+# reset caches
+alias reset_quicklook="qlmanage -r"
 
 # Reindexing Spotlight
-alias reset_spotlight='sudo mdutil -E /'
+alias reset_spotlight="sudo mdutil -E /"
