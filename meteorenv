@@ -1,0 +1,1 @@
+export PACKAGE_DIRS="$HOME/www/meteor/packages"

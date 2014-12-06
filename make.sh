@@ -20,7 +20,7 @@ function symlink {
 # dotfiles directory
 dir=~/dotfiles       
 # list of files/folders to symlink in homedir
-symlink_files="aliases bower functions git-prompt gitprompt oracle oracle_11_2 ow ck ow xc droid www textmate macports heroku_toolbelt homebrew ruby rbenv apportable_toolkit jshintrc dockerenv awsenv"  
+symlink_files="aliases bower functions git-prompt gitprompt oracle oracle_11_2 ow ck ow xc droid www textmate macports heroku_toolbelt homebrew ruby rbenv apportable_toolkit jshintrc dockerenv awsenv meteorenv"  
 
 ########## Start
 
