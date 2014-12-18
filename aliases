@@ -1,3 +1,4 @@
+alias subl="/applications/Sublime\ Text.app/contents/sharedsupport/bin/subl"
 alias orangewise="ssh -v orangewi@orangewise.com"
 alias macbookpro="ssh ronald@'ro-macbook-pro.local"
 
