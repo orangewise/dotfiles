@@ -41,6 +41,10 @@ if [ ${host:0:16} == "Ro-MacBookie-Pro" ]
 then
 	echo "--> profile for Ro-Mac-BookiePro"
 	symlink "profile" "profile_ro_macbookie_pro"
+
+    echo "sublime preferences"
+	ln -s ~/dotfiles/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
+
 	
 elif [ ${host:0:14} == "Ro-MacBook-Pro.local" ]
 then

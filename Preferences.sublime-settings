@@ -1,0 +1,12 @@
+{
+	"folder_exclude_patterns":
+	[
+		".meteor",
+		".git",
+		".gitignore",
+		".npm",
+		".build*"
+	],
+	"font_size": 18,
+	"word_wrap": "false"
+}
