@@ -43,6 +43,7 @@ then
 	symlink "profile" "profile_ro_macbookie_pro"
 
     echo "sublime preferences"
+    rm ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 	ln -s ~/dotfiles/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
 
 	
