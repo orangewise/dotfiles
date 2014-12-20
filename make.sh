@@ -5,6 +5,9 @@
 # This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles
 ############################
 
+
+
+
 ########## Functions
 
 function symlink {
@@ -13,6 +16,15 @@ function symlink {
     echo "Creating symlink ~/.$1 to $2"
     ln -s $dir/$2 ~/.$1
 }
+
+
+function sublime {
+    echo "sublime preferences"
+    rm ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
+	ln -s ~/dotfiles/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
+}
+
+
 
 
 ########## Variables
@@ -42,10 +54,7 @@ then
 	echo "--> profile for Ro-Mac-BookiePro"
 	symlink "profile" "profile_ro_macbookie_pro"
 
-    echo "sublime preferences"
-    rm ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
-	ln -s ~/dotfiles/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
-
+	sublime
 	
 elif [ ${host:0:14} == "Ro-MacBook-Pro.local" ]
 then
