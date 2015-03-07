@@ -7,12 +7,14 @@
 		".npm",
 		".build*"
 	],
-	"font_size": 18,
+	"font_size": 15,
+	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Markdown"
+		"Markdown",
+		"Vintage"
 	],
+	"remember_open_files": false,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"word_wrap": "false"
