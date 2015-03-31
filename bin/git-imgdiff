@@ -1,0 +1,4 @@
+#!/bin/sh
+# imagemagick with x11 support is needed:
+# brew install imagemagick --with-x11
+compare $2 $1 png:- | montage -geometry +4+4 $2 - $1 png:- | display -title "$1" -
