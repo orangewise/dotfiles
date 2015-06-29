@@ -64,6 +64,8 @@ More info:
   "nonew":        true,
   "plusplus":     false,
   "regexp":       false,
+  "quotmark":     true,
+  "unused":       true,
   "undef":        false,
   "strict":       false,
   "trailing":     true,
