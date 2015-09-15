@@ -6,6 +6,7 @@ source ~/.heroku_toolbelt
 source ~/.rbenv
 source ~/.aliases
 source ~/.ow
+source ~/.oronjo
 source ~/.ck
 source ~/.xc
 source ~/.droid
