@@ -19,12 +19,12 @@
 		".npm",
 		".build*"
 	],
-	"font_size": 11,
+	"font_size": 13,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Markdown"
+		"Markdown",
+		"Vintage"
 	],
 	"remember_open_files": false,
 	"tab_size": 2,

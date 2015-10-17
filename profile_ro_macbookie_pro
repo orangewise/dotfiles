@@ -17,7 +17,6 @@ source ~/.git-imgdiff
 source ~/.bower
 source ~/.apportable_toolkit
 source ~/.oracle_11_2
-source ~/.dockerenv
 source ~/.awsenv
 source ~/.meteorenv
 
