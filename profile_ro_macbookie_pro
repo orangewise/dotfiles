@@ -19,4 +19,5 @@ source ~/.apportable_toolkit
 source ~/.oracle_11_2
 source ~/.awsenv
 source ~/.meteorenv
+source ~/.nvmenv
 
