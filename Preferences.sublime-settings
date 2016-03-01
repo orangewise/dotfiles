@@ -19,7 +19,7 @@
 		".npm",
 		".build*"
 	],
-	"font_size": 15,
+	"font_size": 13,
 	"hot_exit": false,
 	"ignored_packages":
 	[
