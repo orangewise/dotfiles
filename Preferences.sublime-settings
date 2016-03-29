@@ -10,7 +10,7 @@
 			"selector": "source.js"
 		}
 	],
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Bright (SL).tmTheme",
 	"folder_exclude_patterns":
 	[
 		".meteor",
@@ -19,7 +19,7 @@
 		".npm",
 		".build*"
 	],
-	"font_size": 13,
+	"font_size": 11,
 	"hot_exit": false,
 	"ignored_packages":
 	[
@@ -29,5 +29,6 @@
 	"remember_open_files": false,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
 	"word_wrap": "true"
 }
