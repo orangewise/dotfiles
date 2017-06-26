@@ -15,9 +15,10 @@ source ~/.functions
 source ~/.gitprompt
 source ~/.git-imgdiff
 source ~/.bower
-source ~/.apportable_toolkit
 source ~/.oracle_11_2
-source ~/.awsenv
 source ~/.meteorenv
-source ~/.nvmenv
+source ~/.sonarlintenv
 
+# this is NOT the brew nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm

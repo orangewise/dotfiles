@@ -1,0 +1,1 @@
+export PATH="$HOME/Sonarcube/sonarlint-cli-1.0/bin/:$PATH"

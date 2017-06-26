@@ -30,32 +30,32 @@ function sublime {
 ########## Variables
 
 # dotfiles directory
-dir=~/dotfiles       
+dir=~/dotfiles
 # list of files/folders to symlink in homedir
-symlink_files="aliases bower functions git-prompt gitprompt git-imgdiff oracle oracle_11_2 oronjo ck ow xc droid www textmate macports heroku_toolbelt homebrew ruby rbenv apportable_toolkit jshintrc awsenv meteorenv nvmenv"  
+symlink_files="aliases bower functions git-prompt gitprompt git-imgdiff oracle oracle_11_2 oronjo ck ow xc droid www sonarlintenv textmate macports heroku_toolbelt homebrew ruby rbenv jshintrc meteorenv"  
 
 ########## Start
 
 echo "Changing to the $dir directory"
 cd $dir
+env
 
-
-echo "Then create symlinks"  
+echo "Then create symlinks"
 for file in $symlink_files; do
-	
+
 	symlink $file $file
-	
+
 done
 
 host=`hostname`
-echo "Create the correct profile for ${host:0:16} or ${host:0:14}"  
+echo "Create the correct profile for ${host:0:16} or ${host:0:14}"
 if [ ${host:0:16} == "Ro-MacBookie-Pro" ]
 then
 	echo "--> profile for Ro-Mac-BookiePro"
 	symlink "profile" "profile_ro_macbookie_pro"
 
 	sublime
-	
+
 elif [ ${host:0:14} == "Ro-MacBook-Pro.local" ]
 then
 	echo "--> profile for Ro-MacBook-Pro"
