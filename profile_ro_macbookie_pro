@@ -17,7 +17,7 @@ source ~/.git-imgdiff
 source ~/.bower
 source ~/.oracle_11_2
 source ~/.meteorenv
-source ~/.sonarlintenv
+# source ~/.sonarlintenv
 source ~/.globals
 
 # this is NOT the brew nvm
