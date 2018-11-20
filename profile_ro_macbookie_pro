@@ -1,5 +1,6 @@
 echo ".profile" $SHELL
 
+source ~/.awsenv
 source ~/.textmate
 source ~/.homebrew
 source ~/.heroku_toolbelt
