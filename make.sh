@@ -32,7 +32,7 @@ function sublime {
 # dotfiles directory
 dir=~/dotfiles
 # list of files/folders to symlink in homedir
-symlink_files="aliases awsenv bower functions git-prompt gitprompt git-imgdiff oracle oracle_11_2 oronjo ck ow xc droid www sonarlintenv textmate macports heroku_toolbelt homebrew ruby rbenv jshintrc meteorenv"
+symlink_files="aliases awsenv bower functions git-prompt gitprompt git-imgdiff oracle oracle_11_2 oronjo python ck ow xc droid www sonarlintenv textmate macports heroku_toolbelt homebrew ruby rbenv jshintrc meteorenv"
 
 ########## Start
 

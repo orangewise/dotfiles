@@ -8,6 +8,7 @@ source ~/.rbenv
 source ~/.aliases
 source ~/.ow
 source ~/.oronjo
+source ~/.python
 source ~/.ck
 source ~/.xc
 source ~/.droid
