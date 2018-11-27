@@ -1,1 +1,4 @@
 complete -C '`which aws_completer`' aws
+
+# added for aws-iam-authenticator
+export PATH=$HOME/bin:$PATH
