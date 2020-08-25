@@ -10,3 +10,7 @@ alias reset_spotlight="sudo mdutil -E /"
 
 # speedup backup
 alias speedup_backup="sudo sysctl debug.lowpri_throttle_enabled=0"
+
+# python virtual env
+alias act="unset PROMPT_COMMAND && source ./.venv/bin/activate"
+alias dact="deactivate"

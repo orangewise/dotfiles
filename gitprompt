@@ -5,5 +5,5 @@ GIT_PS1_SHOWSTASHSTATE=true
 GIT_PS1_SHOWUNTRACKEDFILES=true
 GIT_PS1_SHOWUPSTREAM="auto"
 
-PROMPT_COMMAND='__git_ps1 "\u@\h:\w" "
-\\\$ "'
+precmd () { __git_ps1 "%n@%m" ":%~
+$ " "|%s" }

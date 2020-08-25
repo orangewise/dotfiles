@@ -3,7 +3,7 @@ echo ".profile" $SHELL
 source ~/.awsenv
 source ~/.textmate
 source ~/.homebrew
-source ~/.heroku_toolbelt
+#source ~/.heroku_toolbelt
 source ~/.rbenv
 source ~/.aliases
 source ~/.ow
@@ -18,10 +18,11 @@ source ~/.gitprompt
 source ~/.git-imgdiff
 source ~/.bower
 source ~/.oracle_11_2
-source ~/.meteorenv
+#source ~/.meteorenv
 # source ~/.sonarlintenv
 source ~/.globals
 
 # this is NOT the brew nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+
