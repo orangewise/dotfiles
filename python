@@ -1,1 +1,4 @@
 eval "$(pyenv init -)"
+
+# brew cask reinstall anaconda
+export PATH="/usr/local/anaconda3/bin:$PATH"
