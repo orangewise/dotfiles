@@ -52,7 +52,7 @@ echo "Create the correct profile for ${host:0:16} or ${host:0:14}"
 if [ ${host:0:16} == "Ro-MacBookie-Pro" ]
 then
 	echo "--> profile for Ro-Mac-BookiePro"
-	symlink "zshrc" "profile_ro_macbookie_pro_zsh"
+	symlink "profile" "profile_ro_macbookie_pro"
 
 	# sublime
 

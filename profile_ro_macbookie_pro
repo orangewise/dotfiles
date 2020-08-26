@@ -1,22 +1,23 @@
+export BASH_SILENCE_DEPRECATION_WARNING=1
 echo ".profile" $SHELL
 
 source ~/.awsenv
-source ~/.textmate
+#source ~/.textmate
 source ~/.homebrew
 #source ~/.heroku_toolbelt
 source ~/.rbenv
 source ~/.aliases
 source ~/.ow
-source ~/.oronjo
+#source ~/.oronjo
 source ~/.python
-source ~/.ck
-source ~/.xc
-source ~/.droid
-source ~/.www
+#source ~/.ck
+#source ~/.xc
+#source ~/.droid
+#source ~/.www
 source ~/.functions
 source ~/.gitprompt
 source ~/.git-imgdiff
-source ~/.bower
+#source ~/.bower
 source ~/.oracle_11_2
 #source ~/.meteorenv
 # source ~/.sonarlintenv
@@ -25,4 +26,5 @@ source ~/.globals
 # this is NOT the brew nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+
 

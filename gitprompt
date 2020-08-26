@@ -5,5 +5,16 @@ GIT_PS1_SHOWSTASHSTATE=true
 GIT_PS1_SHOWUNTRACKEDFILES=true
 GIT_PS1_SHOWUPSTREAM="auto"
 
-precmd () { __git_ps1 "%n@%m" ":%~
-$ " "|%s" }
+#echo "VIRTUAL_ENV $VIRTUAL_ENV"
+#if [ -v $VIRTUAL_ENV ];
+#then
+#    virtenv=""
+#else
+#    virtenv="(`basename \"$VIRTUAL_ENV\"`) "
+#fi
+
+#precmd () { __git_ps1 "$virtenv%n@%m" ":%~
+#$ " "|%s" }
+
+PROMPT_COMMAND='__git_ps1 "\u@\h:\w" "
+\\\$ "'
