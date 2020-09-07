@@ -13,4 +13,4 @@ alias speedup_backup="sudo sysctl debug.lowpri_throttle_enabled=0"
 
 # python virtual env
 alias act="unset PROMPT_COMMAND && source ./.venv/bin/activate"
-alias dact="deactivate"
+alias dact="export PROMPT_COMMAND='__git_ps1 \"\u@\h:\w\" \" \\\$ \"' && deactivate"
