@@ -6,7 +6,6 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # Set the version.
 # Version of current session can be set using "rbenv shell"
-#export RBENV_VERSION=2.0.0-p247
 export RBENV_VERSION=2.5.3
 echo "RBENV_VERSION" $RBENV_VERSION
 export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
